@@ -1,0 +1,17 @@
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+}
+.nav-bar h4{
+    margin: 0;
+}
+.heading{
+color: orange;    
+text-align: center;
+}

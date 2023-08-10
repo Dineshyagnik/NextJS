@@ -28,10 +28,10 @@ export default function Home() {
   )
 }
 
-const User=(props)=>{
-  return(
-    <div>
-      <h2>USer name is {props.name}</h2>
-    </div>
-  )
-}
+// const User=(props)=>{
+//   return(
+//     <div>
+//       <h2>User name is {props.name}</h2>
+//     </div>
+//   )
+// }
