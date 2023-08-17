@@ -15,9 +15,20 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>Basic Routing | Home Page</h1>
+      {/* <h1>Basic Routing | Home Page</h1> */}
+      {/* <h1>Fetch Data with API in Client Component | Home Page</h1> */}
+
+      <h1>Fetch Data with API in Server Component | Home Page</h1>
+
+      {/* <Link href={'/productlist'}>Go to Product Page</Link> */}
+      {/* <p>API using Client Component</p> */}
+
+      <Link href={'/prodcts'}>Go to Product Page</Link>
+      <p>API using Server Component</p>
+
       {/* <User name='dinesh'/> */}
       {/* <User name='Peter'/> */}
+      
       <Link href={'/login'}>Go to Login Page</Link>
       <Link href={'/about'}>Go to About Page</Link>
 
