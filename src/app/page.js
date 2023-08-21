@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 // import { useRouter } from 'next/router'; //wrong way
 import styles from './page.module.css'
 import Link from 'next/link'
@@ -35,6 +36,9 @@ export default function Home() {
       <button onClick={()=>navigate("/login")}>Go to Login Page</button>
       <br/>
       <button onClick={()=>navigate("/about")}>Go to About Page</button>
+
+      {/* <img src='/dummy.png'/> */}
+      <Image src={'/dummy.png'} height={200} width={200}/> 
     </main>
   )
 }

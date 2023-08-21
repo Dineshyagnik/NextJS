@@ -41,3 +41,10 @@ export default function page() {
         </div>
     )
 }
+
+export function generateMetadata(){
+    return{
+        title:'user page title', 
+        description:'user page description'
+    }
+}
