@@ -1,5 +1,9 @@
+// import {redirect} from 'next/navigation'
 
 export default function User(){
+
+    // redirect('/login')
+
     return(
         <div>
             <h1>D User Page</h1>
